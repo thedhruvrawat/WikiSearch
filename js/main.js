@@ -33,7 +33,6 @@ function showResults (callback) {
 		var url = title.replace(/ /g, "_");
 		var timestamp = callback.query.search[m].timestamp;
 		timestamp = new Date(timestamp);
-		//"Wed Aug 27 2014 00:27:15 GMT+0100 (WAT)";
 		console.log(timestamp);
 		$(".title-" + m).html("<a href='https://en.wikipedia.org/wiki/" + url + "' target='_blank'>" + callback.query.search[m].title + "</a>");
 		$(".snippet-" + m).html(callback.query.search[m].snippet);
@@ -52,7 +51,6 @@ $(".result-btn-wiki").click(function (event) {
 	document.getElementById("result-wiki-search-form-input").blur();
 	ajax(keyword);
 });
-
 
 $(".btn-wiki").click(function(event) {
 	event.preventDefault();
