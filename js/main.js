@@ -53,6 +53,7 @@ $(".result-btn-wiki").click(function (event) {
 	ajax(keyword);
 });
 
+
 $(".btn-wiki").click(function(event) {
 	event.preventDefault();
 	var keyword = $(".wiki-search-input").val();
