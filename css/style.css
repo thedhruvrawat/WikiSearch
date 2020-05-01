@@ -1,4 +1,4 @@
-/*
+/* CSS IS INPIRED FROM - 
 * Skeleton V2.0.4
 * Copyright 2014, Dave Gamache
 * www.getskeleton.com
@@ -219,7 +219,6 @@ button {
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
-    /* font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; */
     color: #222; }
   
   a {
@@ -534,13 +533,11 @@ footer p{
   .button.button-primary:hover,
   button.button-primary:hover {
     color: #fff;
-    /* background-color: #1eaedb; */
     border-color: #3c4043; 
   }
   
   input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
     color: #fff;
-    background-color: #1eaedb;
     border-color: #3c4043; 
   }
   
@@ -548,7 +545,6 @@ footer p{
   button.button-primary:focus {
     color: #fff;
     background-color: #1eaedb;
-    /* border-color: #1eaedb;  */
   }
   
   input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
@@ -590,10 +586,14 @@ footer p{
     padding-top: 6px;
     padding-bottom: 6px; }
   
-  input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus {
-    /* border: 1px solid #33c3f0; */
+  input[type="search"]:focus {
     outline: 0;
     color: #fff; 
+  }
+
+  .result-wiki-search-form-input input[type="text"]:focus {
+    outline: 0;
+    color: greenyellow !important; 
   }
   
   textarea:focus,

@@ -17,7 +17,7 @@ function ajax (keyword) { //AJAX request
 			}
 		},
 		error: function () {
-			alert("Error retrieving search results, please refresh the page");
+			swal("Error retrieving search results, please refresh the page");
 		}
 	});
 }
@@ -68,7 +68,12 @@ $(".btn-wiki").click(function(event) {
 	}
 
 	else {
-		alert("Enter a keyword into the search box");
+		  Swal.fire({
+			icon: 'error',
+			title: 'No search term!',
+			text: 'Enter a keyword into the search box'
+		  })  
+
 	}
 	
 });
