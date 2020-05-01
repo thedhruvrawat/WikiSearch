@@ -302,8 +302,10 @@ button {
       font-size: 1.5rem; } }
   p {
     margin-top: 0;
-    font-family: monospace !important;
     color: #fff;  
+}
+footer p{
+  font-family: monospace !important;
 }
   
   /* Modules */
@@ -778,7 +780,9 @@ p span {
   
   .error {
     margin-top: 4em;
-    line-height: 20px; }
+    line-height: 20px;
+  color: #fff;
+font-family: sans-serif !important; }
   
   .error p {
     line-height: 10px; }
