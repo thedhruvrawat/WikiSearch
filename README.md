@@ -2,16 +2,18 @@
 
 #### A simple search application made using [Wikipedia Opensearch API](https://www.mediawiki.org/wiki/API:Opensearch) and uses **AJAX** and **jQuery**.
 
-#### [Demo](http://codecombat.000webhostapp.com/wikipedia/)
+#### [Demo](https://thedhruvrawat.github.io/WikiSearch/)
 
 - It consists of **autocomplete** feature where it provides suggestions in a dropdown while typing the keyword in the search box.
-- Makes use of 
+- Makes use of **SweetAlert2**, a responsive alternative to JavaScript popup boxes
 
 
 ### Useful links
 
 - [JQuery Autocomplete UI](http://jqueryui.com/autocomplete/)
 - [Wikipedia Opensearch API](https://www.mediawiki.org/wiki/API:Opensearch)
+- [SweetAlert2](https://sweetalert2.github.io/)
+- [FontAwesome.com](https://fontawesome.com/)
 
 ### License
 
