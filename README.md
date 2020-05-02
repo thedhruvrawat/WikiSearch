@@ -1,4 +1,7 @@
-# Wikipedia Instant Search
+Created on: April 30, 2020
+Last Updated: May 2, 2020
+
+# WikiSearch
 
 #### A simple search application made using [MediaWiki API](https://www.mediawiki.org/wiki/API:Opensearch) and uses **AJAX** and **jQuery**.
 
