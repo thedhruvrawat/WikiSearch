@@ -1,4 +1,4 @@
-<p align="right">Created on: April 30, 2020</p><br>
+<p align="right">Created on: April 30, 2020</p>
 <p align="right">Last Updated: May 2, 2020</p>
 
 # WikiSearch
