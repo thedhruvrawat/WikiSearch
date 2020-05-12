@@ -491,7 +491,7 @@ footer p{
     white-space: nowrap;
     background-color: transparent;
     border-radius: 4px;
-    border: 1px solid #bbb;
+    border: 1px solid #bbb !important;
     cursor: pointer;
     box-sizing: border-box; }
   
@@ -715,7 +715,8 @@ footer p{
     margin-top: 2em;
     margin-left: 10px; 
     border-radius: 0px !important;
-    background-color: #f2f2f2;
+    padding: 10px 15px 10px 15px !important;
+    background-color: #f2f2f2 !important;
 
 }
 
@@ -748,21 +749,39 @@ p span {
     margin: 10px 0 0; 
     
 }
+
+.display-results{
+  display: flex;
+  padding: 100px 0 100px 0;
+  flex-direction: column;
+}
+
+.mycard {
+  margin: 30px;
+  background: transparent !important;
+  border: none !important;
+}
+
+.card p{
+  font-size: 15px !important;
+}
   
+
+.card h5{
+  font-size: 25px !important;
+}
+
+.card img {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
   #result-wiki-search-form-input {
     width: 350px; 
     border-radius: 0 !important;}
   
-  .result-list {
-    margin-top: 20px; }
   
-  .result-title a {
-    color: #B4E1FF;
-    line-height: 1.2em;
-    font-size: 20px;
-    text-decoration: none; 
-}
-  
+
   .result-title a:hover {
     text-decoration: underline; }
   
