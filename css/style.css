@@ -305,6 +305,8 @@ button {
 }
 footer p{
   font-family: monospace !important;
+  font-size: 2em;
+  margin-top: 8em
 }
   
   /* Modules */
@@ -702,22 +704,30 @@ footer p{
     text-align: center; }
   
   .wiki-search-form {
-    margin: 1.5em 0; }
+    margin: 4.5em 0; }
   
   #wiki-search-input {
     width: 90%; 
     border-radius: 70px;
     background-color: #3c4043;
     height: 5rem;
+    font-size: 1.6em;
 }
   
   .button {
     margin-top: 2em;
-    margin-left: 10px; 
+    /* margin-left: 10px;  */
+    width: 15em;
+    height: 3em;
     border-radius: 0px !important;
     padding: 10px 15px 10px 15px !important;
     background-color: #f2f2f2 !important;
 
+}
+
+.headline {
+  font-size: 4.5em;
+  margin: 12px 0;
 }
 
 p span {
@@ -754,6 +764,10 @@ p span {
   display: flex;
   padding: 100px 0 100px 0;
   flex-direction: column;
+}
+
+.card-body {
+  margin-left: 5em;
 }
 
 .mycard {

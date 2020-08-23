@@ -28,7 +28,7 @@ function showResults (callback) {
 		// $(".display-results").append("<div class='card mb-3 result-list result-" + i + "' style='max-width: 540px;'>" + "<span class='card-img-top img-" + i + "'></span>" + "<span class='result-title title-" + i + "'></span>" + "<br>" +"<span class='result-snippet snippet-" + i + "'></span>" + "<br>" + "<span class='result-metadata metadata-" + i + "'></span>" + "</div>" );
 
 		$(".display-results").append("<div class='card mb-5 mycard result-" + i + "' >" + "<div class='row no-gutters'>" +
-			"<div class='col-md-4'>" + "<div class='card-img img-" + i + "'></div>" + "</div>" + 
+			"<div class='col-md-3'>" + "<div class='card-img img-" + i + "'></div>" + "</div>" + 
 			"<div class='col-md-8'>" + 
 			"<div class='card-body'>" +
 				"<h5 class='card-title title-" + i + "'></h5>" + 
@@ -59,13 +59,13 @@ function showResults (callback) {
 				// console.log(newid);
 
 				if (data.query.pages[newid].hasOwnProperty("thumbnail") === true) {
-					$(".img-" + m).html("<img width=100% height=100% src='"+`${data.query.pages[newid].thumbnail.source}`+"'>");
+					$(".img-" + m).html("<img width=70% height=70% src='"+`${data.query.pages[newid].thumbnail.source}`+"'>");
 
 					// $(".img-" + m).css('background', 'red !important');
 					// .style.background = "url(" + `${data.query.pages[newid].thumbnail.source}` +") !important";
 					// ("<img src='" + `${data.query.pages[newid].thumbnail.source}` + "'>");
 				  } else {
-					$(".img-" + m).html("<img width=50% src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Article_icon_cropped.svg/512px-Article_icon_cropped.svg.png'>");
+					$(".img-" + m).html("<img width=30% src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Article_icon_cropped.svg/512px-Article_icon_cropped.svg.png' style='margin: 1em 4em 0 0 !important'> ");
 				  }
 
 				}
